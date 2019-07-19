@@ -1,3 +1,4 @@
+```
 copyTopThird(picture){
   width = getWidth(picture);
   height = getHeight(picture);
@@ -19,3 +20,4 @@ splitPicture(pointToSplit-x, pointToSplit-y) <!-- splits picture as many times a
 first()
 last()
 replace(newItem)
+```
