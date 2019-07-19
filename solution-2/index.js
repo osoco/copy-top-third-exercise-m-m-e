@@ -14,7 +14,7 @@ const copyTopThird = picture => {
   const originalHeight = picture.height;
   const originalWidth = picture.width;
   const newHeight = originalHeight / 3;
-  
+
   newImage.src = originalSrc;
   newImage.setAttribute("style", `position: absolute;  clip: rect(0, ${originalWidth}px, ${newHeight}px, 0);`);
 
